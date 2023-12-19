@@ -31,7 +31,7 @@ void selection_sort(int *array, size_t size)
 			tmp = array[i];
 			array[i] = array[num];
 			array[num] = tmp;
-			print_array(array, size)
+			print_array(array, size);
 		}
 	}
 }
